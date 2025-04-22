@@ -9,7 +9,9 @@
 //   Created by : Concera Software / AH
 // ---------------------------------------------------------------------
 
-
+// setup script cyclic every minute, but only run on 0:00
+//
+if (intval(date("Hi")) != 0) return;
 
 // ---------------------------------------------------------------------
 // BASE CONFIGURATION
